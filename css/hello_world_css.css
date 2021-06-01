@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Microsoft YaHei';
+    font-size: 16px;
+    overflow: hidden;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#header {
+    width: calc(100% - 40px);
+    background: #2e2e2e;
+    padding: 0 40px;
+    box-sizing: content-box;
+    height: 80px;
+    color: #fff;
+}
+#header .logo {
+    width: 150px;
+    float: left;
+    margin: 25px 0;
+}
+#header .menu {
+    width: calc(100% - 390px);
+    float: left;
+    height: 80px;
+    padding-right: 50px;
+}
+#header .menu li {
+    float: right;
+    color: #8e8e8e;
+    width: 100px;
+    line-height: 80px;
+    text-align: center;
+}
+#header .btnGroup {
+    width: 150px;
+    float: right;
+    height: 80px;
+}
+.button_group button {
+    margin: 23px 0;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+.button_group .login{
+    background: transparent;
+}
+.button_group .registered {
+    padding: 6px 16px;
+    background: #76c066;
+    border-radius: 20px;
+}

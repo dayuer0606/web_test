@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>登录</title>
+    <style>
+        body
+        {
+            background: url("img/background2.jpeg") no-repeat 0px 0px;
+            background-size: cover;
+            padding: 0;
+            margin: 0;
+        }
+        #login_dialog
+        {
+            background: url("img/background1.jpeg") no-repeat 0px 0px;
+            background-size: cover;
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            left: 25%;
+            top: 25%;
+            border-radius: 10px;
+            box-shadow:5px 5px 10px #2e2e2e;
+        }
+        #login_dialog_layout
+        {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 50%;
+        }
+        #login_dialog_layout .p_logoin
+        {
+            font-size: 18px;
+            color: white;
+            position: absolute;
+        }
+        /*#login_dialog_layout .user .input-field {*/
+        /*    width: 30%;*/
+        /*    height: 50%;*/
+        /*    text-align: center;*/
+        /*    background: unset;*/
+        /*    border-bottom-color: white;*/
+        /*    border-top: 0px;*/
+        /*    border-right: 0px;*/
+        /*    border-left: 0px;*/
+        /*    border-bottom: 0px;*/
+        /*    position: absolute;*/
+        /*    left: 15%;*/
+        /*    float: left;*/
+        /*}*/
+        #login_dialog_layout .user {
+            top: 35% ;
+            width: 100%;
+            position: absolute;
+        }
+        #login_dialog_layout .password {
+            top: 55% ;
+            width: 100%;
+            position: absolute;
+        }
+        #login_dialog_layout img {
+            height: 10%;
+            width: 5%;
+            float: left;
+            position: center;
+        }
+        #login_dialog_layout .user div {
+            height: 10%;
+            width: 10%;
+            float: left;
+            font-size: 15px;
+            color: white;
+        }
+        #login_dialog_layout .password div {
+            height: 10%;
+            width: 10%;
+            float: left;
+            font-size: 15px;
+            color: white;
+        }
+    </style>
+</head>
+<body >
+    <div id="login_dialog">
+        <div id="login_dialog_layout">
+            <p class="p_logoin" style="top: 5%">登录</p>
+            <div class="user">
+                <img src="img/user.png">
+                <div>账号</div>
+                <input class="input-field" style="top: 35%;background: unset;border: 0;" type="text">
+            </div>
+            <div style="height: 1px;width:48%;background: white;top: 50%;position: absolute"></div>
+            <div class="password">
+                <img src="img/password.png" style="height: 4%;width: 5%">
+                <div>密码</div>
+                <input class="input-field" style="top: 55%;background: unset;border: 0;" type="text">
+            </div>
+            <div style="height: 1px;width:48%;background: white;top: 70%;position: absolute"></div>
+            <button style="width: 40%;height: 20% ;color: white;background: #214497;top: 75%;
+            box-shadow:5px 5px 10px #2e2e2e;border:0px;position: absolute;font-size: 18px">登录</button>
+        </div>
+    </div>
+</body>
+
+</html>
